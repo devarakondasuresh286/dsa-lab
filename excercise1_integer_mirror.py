@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def integer_mirror(n):
     if n < 0:
         raise ValueError("Input must be a non-negative integer.")
