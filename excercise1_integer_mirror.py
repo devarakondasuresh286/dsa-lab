@@ -25,11 +25,3 @@ if __name__ == "__main__":
         result = integer_mirror(num)
         print(f"{num:<10} | {result:<10}")
 
-    # Complexity Analysis Notes
-    # Operations for a d-digit number:
-    #   - 1 modulo operation per loop
-    #   - 1 integer division per loop
-    #   - 1 multiplication per loop
-    #   - 1 addition per loop
-    # Total operations: Roughly 4d operations.
-    # Time Complexity: O(d) or O(log10(n))
